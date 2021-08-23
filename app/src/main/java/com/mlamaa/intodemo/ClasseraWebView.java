@@ -53,7 +53,7 @@ String QuesryStringDelimiter=":";
                         // Step Seven: set intent result code as cancelled if any exception happend
                         setResult(Activity.RESULT_CANCELED);
                     }
-                    // Step eight: set intent result code as cancelled if any exception happend
+                    // Step eight: finish the webview
                     finish();
                 }
                 return super.shouldOverrideUrlLoading(view, request);
